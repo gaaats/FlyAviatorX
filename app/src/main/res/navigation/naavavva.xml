@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/naavavva"
+    app:startDestination="@id/startyFragment">
+
+    <fragment
+        android:id="@+id/startyFragment"
+        android:name="com.pomelogames.bull.StartyFragment"
+        android:label="fragment_starty"
+        tools:layout="@layout/fragment_starty" >
+        <action
+            android:id="@+id/action_startyFragment_to_endyyyFragment"
+            app:destination="@id/endyyyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/endyyyFragment"
+        android:name="com.pomelogames.bull.EndyyyFragment"
+        android:label="fragment_endyyy"
+        tools:layout="@layout/fragment_endyyy" />
+</navigation>
